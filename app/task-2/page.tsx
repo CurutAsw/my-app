@@ -10,7 +10,7 @@ const Badge = ({ text } : { text: string }) => (
         {text}
     </div>
 );
-export default function tes2() {
+export default function task2() {
     return (
      <section className="h-screen bg-gray-100 flex flex-col justify-center items-center gap-8 relative">
       <div className="absolute top-8 left-8">
