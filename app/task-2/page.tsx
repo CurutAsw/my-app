@@ -1,15 +1,3 @@
-const UserAvatar = ({ className = "" }) => (
-    <div className={`w-9 h-9 rounded-full bg-white border-2 border-white shadow-sm flex items-center justify-center overflow-hidden ${className}`}>
-        
-        <img src="user.svg" alt="user" className="w-5 h-5 text-gray-400" /> 
-    </div>
-);
-
-const Badge = ({ text } : { text: string }) => (
-    <div className="w-9 h-9 rounded-full bg-gray-100 border-2 border-white flex items-center justify-center text-xs font-bold text-gray-600 shadow-sm z-10">
-        {text}
-    </div>
-);
 export default function task2() {
     return (
      <section className="h-screen bg-gray-100 flex flex-col justify-center items-center gap-8 relative">
@@ -34,7 +22,7 @@ export default function task2() {
             <img src="https://randomuser.me/api/portraits/men/29.jpg" alt="User 3" className="w-10 h-10 rounded-full border-4 border-white object-cover ring-1 ring-black/5"/>
            
             <div className="w-10 h-10 rounded-full bg-white border-4 border-white flex items-center justify-center ring-1 ring-black/5">
-              <span className="text-xl font-bold text-blue-950">9+</span>
+              <p className="text-xl font-bold text-blue-950">9+</p>
             </div>
           </div>
         </div>
@@ -55,7 +43,7 @@ export default function task2() {
              <img src="https://randomuser.me/api/portraits/women/25.jpg" alt="User 1" className="w-10 h-10 rounded-full border-4 border-white object-cover ring-1 ring-black/5"/>
             
             <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="User 2" className="w-10 h-10 rounded-full border-4 border-white object-cover ring-1 ring-black/5"/>
-
+ 
             <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="User 3" className="w-10 h-10 rounded-full border-4 border-white object-cover ring-1 ring-black/5"/>
            
             <div className="w-10 h-10 rounded-full bg-white border-4 border-white flex items-center justify-center ring-1 ring-black/5">

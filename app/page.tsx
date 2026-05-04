@@ -56,7 +56,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-          Ade 
+          Ade
           </a>
         </div>
       </main>
